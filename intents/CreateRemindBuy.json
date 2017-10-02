@@ -6,6 +6,7 @@
   "responses": [
     {
       "resetContexts": false,
+      "action": "remindBuy",
       "affectedContexts": [],
       "parameters": [
         {
@@ -43,7 +44,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1501061333,
+  "lastUpdate": 1506937487,
   "fallbackIntent": false,
   "events": [],
   "userSays": [

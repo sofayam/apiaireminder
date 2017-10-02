@@ -6,6 +6,7 @@
   "responses": [
     {
       "resetContexts": false,
+      "action": "remindPlan",
       "affectedContexts": [],
       "parameters": [
         {
@@ -52,10 +53,91 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1506932867,
+  "lastUpdate": 1506937581,
   "fallbackIntent": false,
   "events": [],
   "userSays": [
+    {
+      "id": "efe92c10-e72c-4b82-b4ea-02e09458682a",
+      "data": [
+        {
+          "text": "plan a "
+        },
+        {
+          "text": "tea party",
+          "alias": "eventtype",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506937581,
+      "isAuto": false
+    },
+    {
+      "id": "99f0962f-dc80-49c7-8f4d-6ef239138755",
+      "data": [
+        {
+          "text": "i  have invited "
+        },
+        {
+          "text": "bob",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "tea",
+          "alias": "eventtype",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "on Wednesday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "afternoon",
+          "alias": "time-period",
+          "meta": "@sys.time-period",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506936353,
+      "isAuto": false
+    },
     {
       "id": "f6c55a42-8886-4184-a3e4-8f774f638c18",
       "data": [
