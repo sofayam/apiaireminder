@@ -1,0 +1,294 @@
+{
+  "id": "9e9443c4-e483-4dca-aebf-64ea99491286",
+  "name": "CreateRemindCall",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "first-name",
+          "value": "$first-name",
+          "prompts": [
+            "Who ya gonna call?"
+          ],
+          "isList": false
+        },
+        {
+          "dataType": "@relation",
+          "name": "relation",
+          "value": "$relation",
+          "isList": false
+        },
+        {
+          "dataType": "@condition",
+          "name": "condition",
+          "value": "$condition",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.last-name",
+          "name": "last-name",
+          "value": "$last-name",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.time-period",
+          "name": "time-period",
+          "value": "$time-period",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1501080606,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "7e268a62-73ff-4fa4-ad74-ffae2ea11c84",
+      "data": [
+        {
+          "text": "remind me to call "
+        },
+        {
+          "text": "my lawyer",
+          "alias": "relation",
+          "meta": "@relation",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "at 8 o\u0027clock",
+          "alias": "time",
+          "meta": "@sys.time",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "morning",
+          "alias": "time-period",
+          "meta": "@sys.time-period",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1501080606,
+      "isAuto": false
+    },
+    {
+      "id": "181e8b00-58d7-452b-aa7f-7423685a9b8c",
+      "data": [
+        {
+          "text": "remind me to call "
+        },
+        {
+          "text": "my lawyer",
+          "alias": "relation",
+          "meta": "@relation",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "this afternoon",
+          "alias": "time-period",
+          "meta": "@sys.time-period",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1501080606,
+      "isAuto": false
+    },
+    {
+      "id": "814d79a9-a8e2-4e3f-b10e-4911ed23c906",
+      "data": [
+        {
+          "text": "remind me to call my "
+        },
+        {
+          "text": "mom",
+          "alias": "first-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1501080606,
+      "isAuto": false
+    },
+    {
+      "id": "d4540987-b6c8-45a1-bee8-ac4bd9467d50",
+      "data": [
+        {
+          "text": "remind me to call "
+        },
+        {
+          "text": "henry",
+          "alias": "first-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "higgins",
+          "alias": "last-name",
+          "meta": "@sys.last-name",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "when I have time",
+          "alias": "condition",
+          "meta": "@condition",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1501077752,
+      "isAuto": false
+    },
+    {
+      "id": "2a2f02b5-4bce-4e59-b7fd-88ea7fbbd69a",
+      "data": [
+        {
+          "text": "remind me to call "
+        },
+        {
+          "text": "my mom",
+          "alias": "relation",
+          "meta": "@relation",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "when I have time",
+          "alias": "condition",
+          "meta": "@condition",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1501016210,
+      "isAuto": false
+    },
+    {
+      "id": "d22c13bf-b2b8-4f5c-b2e8-4f3de939b5cd",
+      "data": [
+        {
+          "text": "remind me to call "
+        },
+        {
+          "text": "bill",
+          "alias": "first-name",
+          "meta": "@sys.given-name",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "when I\u0027m not busy",
+          "alias": "condition",
+          "meta": "@condition",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1501077752,
+      "isAuto": false
+    },
+    {
+      "id": "57fac7c8-b282-4b75-bc80-5de345de7474",
+      "data": [
+        {
+          "text": "remind me to call "
+        },
+        {
+          "text": "my boss",
+          "alias": "relation",
+          "meta": "@relation",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "on the way to work",
+          "alias": "condition",
+          "meta": "@condition",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1501016103,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

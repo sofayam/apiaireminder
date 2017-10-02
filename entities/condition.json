@@ -1,0 +1,33 @@
+{
+  "id": "fd394ede-083e-4b5d-abd0-39a5692a43e4",
+  "name": "condition",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "on the way to work",
+      "synonyms": [
+        "on the way to work"
+      ]
+    },
+    {
+      "value": "when I\u0027m in my car",
+      "synonyms": [
+        "when I\u0027m in my car"
+      ]
+    },
+    {
+      "value": "when I\u0027m at home",
+      "synonyms": [
+        "when I\u0027m at home"
+      ]
+    },
+    {
+      "value": "when I\u0027m not busy",
+      "synonyms": [
+        "when I\u0027m not busy"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

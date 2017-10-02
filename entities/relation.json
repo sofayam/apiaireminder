@@ -1,0 +1,21 @@
+{
+  "id": "12ade5f8-a19d-492a-8015-ac2426931654",
+  "name": "relation",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "my boss",
+      "synonyms": [
+        "my boss"
+      ]
+    },
+    {
+      "value": "my wife",
+      "synonyms": [
+        "my wife"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

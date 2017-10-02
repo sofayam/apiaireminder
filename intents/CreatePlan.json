@@ -1,0 +1,254 @@
+{
+  "id": "ac00ed19-c9c3-4dd6-9edb-957a27ea34ce",
+  "name": "CreatePlan",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.any",
+          "name": "eventtype",
+          "value": "$eventtype",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.time-period",
+          "name": "time-period",
+          "value": "$time-period",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1506932867,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "f6c55a42-8886-4184-a3e4-8f774f638c18",
+      "data": [
+        {
+          "text": "i am throwing a "
+        },
+        {
+          "text": "party",
+          "alias": "eventtype",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "30",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " people "
+        },
+        {
+          "text": "on friday night",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506932867,
+      "isAuto": false
+    },
+    {
+      "id": "a04abb95-6620-4f70-b999-a721deedcf56",
+      "data": [
+        {
+          "text": "i am inviting "
+        },
+        {
+          "text": "6",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " people to "
+        },
+        {
+          "text": "dinner",
+          "alias": "eventtype",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "Saturday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": " evening"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506932867,
+      "isAuto": false
+    },
+    {
+      "id": "f05ec1ca-e7c1-4033-a17d-9033be00c784",
+      "data": [
+        {
+          "text": "i am inviting "
+        },
+        {
+          "text": "anne",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": true
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "lunch",
+          "alias": "eventtype",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "wednesday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506932867,
+      "isAuto": false
+    },
+    {
+      "id": "e3858858-0830-4487-970a-0c2bcb2fb514",
+      "data": [
+        {
+          "text": "I am inviting "
+        },
+        {
+          "text": "bob",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "tea",
+          "alias": "eventtype",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "Saturday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "afternoon",
+          "alias": "time-period",
+          "meta": "@sys.time-period",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506932867,
+      "isAuto": false
+    },
+    {
+      "id": "64fdc8fa-39e9-41eb-9d42-82226b069354",
+      "data": [
+        {
+          "text": "Plan a "
+        },
+        {
+          "text": "dinner",
+          "alias": "eventtype",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "four",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " people on "
+        },
+        {
+          "text": "Christmas Eve",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

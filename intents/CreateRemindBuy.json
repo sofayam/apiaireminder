@@ -1,0 +1,134 @@
+{
+  "id": "fff85d8f-f90c-40a3-83f1-ddc272e1b572",
+  "name": "CreateRemindBuy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "task",
+          "value": "$task",
+          "prompts": [
+            "And what should I do"
+          ],
+          "isList": false
+        },
+        {
+          "dataType": "@sys.time-period",
+          "name": "time",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1501061333,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "6b7910ea-33e9-4679-abc0-72c88a918c0a",
+      "data": [
+        {
+          "text": "We have run out of "
+        },
+        {
+          "text": "eggs",
+          "alias": "task",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "72955f9f-656f-4bc2-aaa9-b107e512c1ec",
+      "data": [
+        {
+          "text": "I need "
+        },
+        {
+          "text": "eggs",
+          "alias": "task",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "748d35c0-858e-4aae-8575-b7751e18141e",
+      "data": [
+        {
+          "text": "remind me to buy "
+        },
+        {
+          "text": "eggs",
+          "alias": "task",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1501061333,
+      "isAuto": false
+    },
+    {
+      "id": "6e7691a2-25ad-439c-a81d-c149d7eff179",
+      "data": [
+        {
+          "text": "remind me to buy "
+        },
+        {
+          "text": "eggs",
+          "alias": "task",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1501061333,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}
